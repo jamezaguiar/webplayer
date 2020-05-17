@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Webplayer</title>
+  </head>
+  <body>
+    <div id="player">
+      <h4><i class="material-icons">equalizer</i> Webplayer</h4>
+      <div class="card">
+        <div class="card-image"></div>
+        <div class="card-content">
+          <h5>Title</h5>
+          <p class="artist">
+            Artist
+          </p>
+          <audio controls></audio>
+          <p id="next"></p>
+        </div>
+      </div>
+    </div>
+
+    <div id="list">
+      <h4><i class="material-icons">list</i> Playlist</h4>
+      <div class="card">
+        <div class="card-content">
+          <ul class="tracks"></ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="scripts/data.js"></script>
+    <script src="scripts/player.js"></script>
+    <script src="scripts/index.js"></script>
+  </body>
+</html>
